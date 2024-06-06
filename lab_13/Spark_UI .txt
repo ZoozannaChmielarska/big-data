@@ -1,0 +1,14 @@
+Jobs: Lista wszystkich zadań (jobs) uruchomionych w aplikacji Spark
+
+Stages: Podział zadania na etapy (stages), z których każdy składa się z wielu zadań (tasks).
+
+Storage: Informacje o danych przechowywanych w pamięci podręcznej (cache) lub na dysku.
+
+Executors: Informacje o węzłach wykonawczych (executors) w klastrze Spark.
+
+SQL/DataFrame: Szczegółowe informacje o zapytaniach SQL i operacjach na DataFrame'ach.
+
+Informacje o dystrybucji danych:
+W zakładce "Stages" można zobaczyć, jak dane są dzielone na partycje i przetwarzane.
+Zakładka "Storage" pokazuje, gdzie dane są przechowywane (pamięć podręczna, dysk) i jak są podzielone na partycje.
+SQL/DataFrame: Plan wykonania zapytania w zakładce "SQL" może zawierać informacje o tym, jak dane są rozdzielane między węzłami.
